@@ -10,9 +10,9 @@ There are  three main architectures of recent deep learning models: 1) Convoluti
 
 ![](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/images/cnn_arch.jpg)
 
-1. Image Classification (AlexNet, VGG, Inception and ResNet) <sup>[2]</sup>
-2. Object Detection (RCNN series, YOLOvx and SSD) <sup>[3]</sup>
-3. Semantic Segmentation (FCN, U-Net, PSPNet, Mask RCNN and DeepLab) <sup>[4, 5]</sup>
+1. [Image Classification (AlexNet, VGG, Inception and ResNet) <sup>[2]</sup>](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/cnn/classification.md)
+2. [Object Detection (RCNN series, YOLOvx and SSD) <sup>[3]</sup>](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/cnn/detection.md)
+3. [Semantic Segmentation (FCN, U-Net, PSPNet, Mask RCNN and DeepLab) <sup>[4, 5]</sup>](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/cnn/segmentation.md)
 
 ## 2. Recurrent Neural Networks (RNN)
 
@@ -20,10 +20,10 @@ There are  three main architectures of recent deep learning models: 1) Convoluti
 
 ![](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/images/rnn_arch.jpg)
 
-1. Three classic modules to capture history (RNN, LSTM and GRU)
-2. Image Captioning (One-to-Many)
-3. Sentiment Classification (Many-to-One)
-4. Machine Translation (Many-to-Many)
+1. [Three classic modules to capture history (RNN, LSTM and GRU)](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/rnn/rnn.md)
+2. [Image Caption (One-to-Many)](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/rnn/image_caption.md)
+3. [Sentiment Classification (Many-to-One)](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/rnn/sentiment_classification.md)
+4. [Machine Translation (Many-to-Many)](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/rnn/machine_translation.md)
 
 ## 3. Generative Adversarial Networks (GAN)
 
@@ -31,12 +31,12 @@ There are  three main architectures of recent deep learning models: 1) Convoluti
 
 ![](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/images/gan_arch.jpg)
 
-1. Convolutional GAN (DCGAN, LapGAN, ResGAN, SRGAN and CycleGAN) <sup>[8]</sup>
-2. Conditional GAN (CGAN and InfoGAN) <sup>[8]</sup>
+1. [Convolutional GAN (DCGAN, LapGAN, ResGAN, SRGAN and CycleGAN) <sup>[8]</sup>](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/gan/convolutional_gan.md)
+2. [Conditional GAN (CGAN and InfoGAN) <sup>[8]</sup>](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/gan/conditional_gan.md)
 
 ## Additional Effective Modules
 
-### 1. Attention mechanism
+### 1. [Attention mechanism](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/attention/atten.md)
 
 **Attention** is a technique that mimics cognitive [attention](https://en.wikipedia.org/wiki/Attention). The effect enhances the important parts of the input data and fades out the rest -- the thought being that the network should devote more computing power on that small but important part of the data. Which part of the data is more important than others depends on the context and is learned through training data by [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent). <sup>[9, 10]</sup>
 
