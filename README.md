@@ -27,12 +27,20 @@ There are  three main architectures of recent deep learning models: 1) Convoluti
 
 ## 3. Generative Adversarial Networks (GAN)
 
-1. Convolutional GAN (DCGAN, LapGAN, ResGAN, SRGAN and CycleGAN)
-2. Conditional GAN (CGAN and InfoGAN)
+**Generative adversarial network** (**GAN**) is a class of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) frameworks designed by [Ian Goodfellow](https://en.wikipedia.org/wiki/Ian_Goodfellow) and his colleagues in 2014. Two [neural networks](https://en.wikipedia.org/wiki/Neural_network) contest with each other in a game (in the form of a [zero-sum game](https://en.wikipedia.org/wiki/Zero-sum_game), where one agent's gain is another agent's loss). <sup>[7]</sup>
+
+![](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/images/gan_arch.jpg)
+
+1. Convolutional GAN (DCGAN, LapGAN, ResGAN, SRGAN and CycleGAN) <sup>[8]</sup>
+2. Conditional GAN (CGAN and InfoGAN) <sup>[8]</sup>
 
 ## Additional Effective Modules
 
 ### 1. Attention mechanism
+
+**Attention** is a technique that mimics cognitive [attention](https://en.wikipedia.org/wiki/Attention). The effect enhances the important parts of the input data and fades out the rest -- the thought being that the network should devote more computing power on that small but important part of the data. Which part of the data is more important than others depends on the context and is learned through training data by [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent). <sup>[9, 10]</sup>
+
+![](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/images/atten_visual.jpg)
 
 ## References
 
@@ -42,5 +50,7 @@ There are  three main architectures of recent deep learning models: 1) Convoluti
 4. (Snapchat, UWaterloo, Qualcomm, UEX, UTD and UCLA) [Image Segmentation Using Deep Learning: A Survey.](https://arxiv.org/abs/2001.05566) IEEE Transactions on *Pattern Analysis and Machine Intelligence*, 2021 (PAMI).
 5. [awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
 6. (Wikipedia) [Recurrent neural network](https://en.wikipedia.org/wiki/Recurrent_neural_network)
-7. 
-
+7. (Wikipedia) [Generative adversarial network](https://en.wikipedia.org/wiki/Generative_adversarial_network)
+8. (NJUST and PIEAS) [Recent Progress on Generative Adversarial Networks (GANs): A Survey.](https://www.researchgate.net/profile/Zhaoqing-Pan/publication/331756737_Recent_Progress_on_Generative_Adversarial_Networks_GANs_A_Survey/links/5c98805292851cf0ae95f3ad/Recent-Progress-on-Generative-Adversarial-Networks-GANs-A-Survey.pdf) IEEE Access, 2019.
+9. (Wikipedia) [Attention](https://en.wikipedia.org/wiki/Attention_(machine_learning))
+10. (Lilian's blog) [Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
