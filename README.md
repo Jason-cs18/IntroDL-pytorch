@@ -8,6 +8,8 @@ There are  three main architectures of recent deep learning models: 1) Convoluti
 
 **Convolutional neural network** (**CNN**, or **ConvNet**) is a class of [deep neural network](https://en.wikipedia.org/wiki/Deep_neural_network), most commonly applied to analyze visual imagery. They are also known as **shift invariant** or **space invariant artificial neural networks** (**SIANN**), based on the shared-weight architecture of the convolution kernels or filters that slide along input features and provide translation [equivariant](https://en.wikipedia.org/wiki/Equivariant_map) responses known as feature maps.<sup>[1]</sup>
 
+![](https://github.com/YanLu-nyu/IntroDL-pytorch/blob/master/images/cnn_arch.jpg)
+
 1. Image Classification (AlexNet, VGG, Inception and ResNet)
 2. Object Detection (RCNN series, YOLOvx and SSD)
 3. Semantic Segmentation (FCN, U-Net, PSPNet, Mask RCNN and DeepLab) <sup>[2, 3]</sup>
